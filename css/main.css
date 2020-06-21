@@ -43,6 +43,20 @@ padding-bottom: 30px;
   margin-bottom: 0 !important;
 }
 
+.section-boxes .row{
+  position: relative;
+
+}
+
+#googlemaps{
+  position: absolute;
+  height:100%;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index:0;
+}
+
 @media(max-width:600px){
   .main-header{
     height:50vh;
